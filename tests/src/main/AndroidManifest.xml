@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.squareup.duktape.tests"
+    package="com.squareup.jniexample.tests"
     >
   <application android:allowBackup="false">
     <activity
-        android:name=".OctaneActivity"
-        android:label="Duktape: Octane"
+        android:name=".HelloActivity"
+        android:label="Hello"
         >
       <intent-filter>
         <action android:name="android.intent.action.MAIN"/>

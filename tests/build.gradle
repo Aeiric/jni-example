@@ -18,7 +18,7 @@ android {
   defaultConfig {
     minSdkVersion 8
     targetSdkVersion 23
-    applicationId 'com.squareup.duktape.tests'
+    applicationId 'com.squareup.jniexample.tests'
 
     testInstrumentationRunner 'android.support.test.runner.AndroidJUnitRunner'
   }
@@ -29,7 +29,7 @@ android {
 }
 
 dependencies {
-  compile project(':duktape')
+  compile project(':jniexample')
   compile 'com.squareup.okio:okio:1.6.0'
   compile 'com.jakewharton:butterknife:7.0.1'
 

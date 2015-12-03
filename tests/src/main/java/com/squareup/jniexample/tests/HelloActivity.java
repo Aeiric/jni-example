@@ -1,4 +1,4 @@
-package com.squareup.duktape.tests;
+package com.squareup.jniexample.tests;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -9,12 +9,12 @@ import butterknife.ButterKnife;
 import butterknife.OnClick;
 import com.squareup.jniexample.Hello;
 
-public final class OctaneActivity extends Activity {
+public final class HelloActivity extends Activity {
   @Bind(R.id.name) EditText editName;
 
   @Override protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    setContentView(R.layout.octane);
+    setContentView(R.layout.hello);
     ButterKnife.bind(this);
   }
 
