@@ -31,6 +31,7 @@ android {
 dependencies {
   compile project(':duktape')
   compile 'com.squareup.okio:okio:1.6.0'
+  compile 'com.jakewharton:butterknife:7.0.1'
 
   androidTestCompile 'com.android.support.test:runner:0.4'
   androidTestCompile 'com.google.truth:truth:0.27'
